@@ -19,7 +19,7 @@ import { Link } from 'gatsby'
 import src1 from '../images/logo.png'
 
 
-const testPage = () => {
+const Header = () => {
     return (
       <div>
 
@@ -43,4 +43,4 @@ const testPage = () => {
     )
 }
 
-export default testPage
+export default Header

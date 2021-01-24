@@ -18,11 +18,16 @@ import {
 import { Link } from 'gatsby'
 import src1 from '../images/logo.png'
 import Header from '../components/header'
+import Section1 from '../components/section1'
 
 
 const testPage = () => {
     return (
-      <Header/>
+      <div>
+        <Header/>
+        <Section1/>
+      </div>
+      
       
         
     )
