@@ -7,14 +7,31 @@ import {
   MDBCollapse,
   MDBIcon,
   MDBNavLink,
-  Animation
+  MDBBtn,
+  MDBContainer,
+  MDBModal,
+  MDBModalBody,
+  MDBModalHeader,
+  MDBModalFooter,
+  MDBRow
 } from 'mdbreact'
 import { Link } from 'gatsby'
-import src1 from '../images/JC_v3_50px.png'
-import TwitterModalPage from './TwitterModalPage'
-import BlogModalPage from './BlogModalPage'
-import ContactModalPage from './ContactModalPage'
+import src1 from '../images/logo.png'
+import Header from '../components/header'
 
+
+const testPage = () => {
+    return (
+      <Header/>
+      
+        
+    )
+}
+
+export default testPage
+
+
+/*
 class NavPage extends Component {
   state = {
     collapseID: ''
@@ -29,11 +46,10 @@ class NavPage extends Component {
     const overlay = <div id="sidenav-overlay" onClick={this.toggleCollapse('navbarCollapse')} />
     return (
         <div id="navpage">
-          <MDBNavbar color="cyan accent-1" light expand="md" fixed="top">
+          <MDBNavbar color="red" light expand="md" fixed="top">
             <Link to="/">
-              <Animation type="bounce" duration="2s">
                 <img src={src1} type="image/png" height="40" alt="" waves />
-              </Animation>
+             
             </Link>
             <MDBNavbarToggler tag="button" className="aqua-gradient" onClick={this.toggleCollapse('navbarCollapse')} />
             <MDBCollapse id="navbarCollapse" isOpen={this.state.collapseID} navbar>
@@ -99,3 +115,4 @@ class NavPage extends Component {
 }
 
 export default NavPage
+*/

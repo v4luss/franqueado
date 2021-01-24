@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import NavPage from '../components/NavPage'
@@ -27,3 +28,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+*/
