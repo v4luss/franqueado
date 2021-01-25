@@ -17,6 +17,10 @@ import {
 } from 'mdbreact'
 import { Link } from 'gatsby'
 import Banner3 from '../images/banner3.png'
+import Section3Img1 from '../images/home-beneficios-1.png'
+import Section3Img2 from '../images/home-beneficios-2.png'
+import Section3Img3 from '../images/home-beneficios-3.png'
+import Section3Img4 from '../images/home-beneficios-4.png'
 
 const Section3 = () => {
     return (
@@ -31,6 +35,34 @@ const Section3 = () => {
 
             </figure>
             <h2 style={{textAlign: 'center', color: 'white'}}>E mais...</h2>
+            <div>
+                <ul>
+                    <li style={{display: 'inline-block', paddingLeft: '150px'}}>
+                        <img src={Section3Img1} style={{width: '80px'}}/>
+                    </li>
+                    <li style={{display: 'inline-block', paddingLeft: '200px'}}>
+                        <img src={Section3Img2} style={{width: '80px'}}/>
+                    </li>
+                    <li style={{display: 'inline-block', paddingLeft: '200px'}}>
+                        <img src={Section3Img3} style={{width: '80px'}}/>
+                    </li>
+                    <li style={{display: 'inline-block', paddingLeft: '200px'}}>
+                        <img src={Section3Img4} style={{width: '80px'}}/>
+                    </li>
+                    
+                    
+                    
+                </ul>
+            </div>
+            
+            <div style={{color: 'white'}}>
+                <span>Acelere a captura de <br/>interessados para sua franquia</span>
+                <span>Reduza o custo com a <br/>padronização da sua rede</span>
+                <span>Aumente o engajamento com <br/>seus franqueados</span>
+                <span>Melhore a percepção e imagem <br/>da sua marca</span>
+            </div>
+
+
         </MDBModalBody>
     )
 }
