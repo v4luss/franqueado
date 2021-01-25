@@ -18,9 +18,10 @@ import {
 import { Link } from 'gatsby'
 import Banner1 from '../images/banner.png'
 
-const testPage = () => {
+
+const Section1 = () => {
     return (
-      <MDBModalBody style={{backgroundColor:"blue"}}>
+      <MDBModalBody style={{backgroundColor: "#316DE8"}}>
           <div style={{textAlign: "center", color: "white"}}>
             <h2>Promova inovação e getão inteligente com</h2>
             <h2><b>O Melhor Sistema Para Franquias do Brasil</b></h2>
@@ -41,4 +42,4 @@ const testPage = () => {
     )
 }
 
-export default testPage
+export default Section1

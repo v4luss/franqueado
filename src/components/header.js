@@ -26,7 +26,7 @@ const Header = () => {
         <MDBNavbar color="orange" style={{height: "50px"}}>
           <div><a style={{textAlign: "center"}}>anuncie em nosso portal de franquias</a></div>
         </MDBNavbar>
-        <MDBNavbar color="blue" light expand="md">
+        <MDBNavbar style={{backgroundColor: "#316DE8"}} expand="md">
           <img src={src1} type="image/png" style={{width: "200px", margin: "20px", padding: "20px"}}/>
           <div style={{paddingLeft: "100px"}}>
             <MDBBtn>asdf</MDBBtn>

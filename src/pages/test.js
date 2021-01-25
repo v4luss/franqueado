@@ -19,13 +19,14 @@ import { Link } from 'gatsby'
 import src1 from '../images/logo.png'
 import Header from '../components/header'
 import Section1 from '../components/section1'
-
+import Section2 from '../components/section2'
 
 const testPage = () => {
     return (
       <div>
         <Header/>
         <Section1/>
+        <Section2/>
       </div>
       
       
