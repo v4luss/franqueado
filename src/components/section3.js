@@ -49,17 +49,16 @@ const Section3 = () => {
                     <li style={{display: 'inline-block', paddingLeft: '200px'}}>
                         <img src={Section3Img4} style={{width: '80px'}}/>
                     </li>
-                    
-                    
-                    
                 </ul>
             </div>
             
             <div style={{color: 'white'}}>
-                <span>Acelere a captura de <br/>interessados para sua franquia</span>
-                <span>Reduza o custo com a <br/>padronização da sua rede</span>
-                <span>Aumente o engajamento com <br/>seus franqueados</span>
-                <span>Melhore a percepção e imagem <br/>da sua marca</span>
+                <ul>
+                    <li style={{paddingLeft: '90px', display: 'inline-block'}}><p style={{textAlign: 'center'}}>Acelere a captura de <br/>interessados para sua franquia</p></li>
+                    <li style={{paddingLeft: '70px', display: 'inline-block'}}><p style={{textAlign: 'center'}}>Reduza o custo com a <br/>padronização da sua rede</p></li>
+                    <li style={{paddingLeft: '90px', display: 'inline-block'}}><p style={{textAlign: 'center'}}>Aumente o engajamento com <br/>seus franqueados</p></li>
+                    <li style={{paddingLeft: '70px', display: 'inline-block'}}><p style={{textAlign: 'center'}}>Melhore a percepção e imagem <br/>da sua marca</p></li>
+                </ul>
             </div>
 
 
