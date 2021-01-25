@@ -66,18 +66,22 @@ const Section2 = () => {
                 </li>
             </ul>
           </div>
+
           <hr/>
-          <div style={{float: 'left'}}>
-            <img src={Banner2} style={{paddingLeft: '150px', paddingTop: '40px'}}/>
+
+          <MDBModalBody>
+            <figure style={{float: 'left'}}>
+                <img src={Banner2} style={{paddingLeft: '150px', paddingTop: '40px'}}/>
             
-          </div>
-          <div style={{float: 'right', textAlign: 'left', paddingRight: '220px', paddingTop: '150px'}}>
-              <h3 style={{color: 'blue'}}>Sem integração não há sucesso no <br/>Franchising</h3>
-              <p>Comunicação em diferentes canais está enfraquecendo o <br/>engajamento com franqueados</p>
-              <p>Os gargalos no funil de vendas estão prejudicando a <br/>expansão da rede</p>
-              <p>A padronização está sendo prejudicada pela dificuldade em <br/>promover treinamentos e transmitir o know-how da marca</p>
-              <MDBBtn>Conhecer Solução</MDBBtn>
-          </div>
+            </figure>
+            <div style={{float: 'right', textAlign: 'left', paddingRight: '220px', paddingTop: '150px'}}>
+                <h3 style={{color: 'blue'}}>Sem integração não há sucesso no <br/>Franchising</h3>
+                <p>Comunicação em diferentes canais está enfraquecendo o <br/>engajamento com franqueados</p>
+                <p>Os gargalos no funil de vendas estão prejudicando a <br/>expansão da rede</p>
+                <p>A padronização está sendo prejudicada pela dificuldade em <br/>promover treinamentos e transmitir o know-how da marca</p>
+                <MDBBtn>Conhecer Solução</MDBBtn>
+            </div>
+          </MDBModalBody>
       </MDBModalBody>
       
       
