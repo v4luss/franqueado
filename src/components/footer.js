@@ -101,11 +101,6 @@ const Section5 = () => {
 
             </div>
                 <hr color='grey' style={{clear: 'both', width: '1100px'}}/>
-
-            
-
-
-
             <hr/>
 
         
