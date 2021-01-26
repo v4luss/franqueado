@@ -1,3 +1,16 @@
-.p {
+.triangle {
+    width: 10px;
+    border-top: 55px solid blue;
+    border-left: 55px solid transparent;
+    position: relative;
+    left: 455px;
+    top: -28px;
+}
+.bubble {
+    border-radius: 30px;
+    background: blue;
+    padding: 15px; 
+    width: 510px;
+    height: 300px; 
     color: white;
 }
