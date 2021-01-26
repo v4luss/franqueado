@@ -21,7 +21,7 @@ import BalanceadoImg from '../images/balanceado.png'
 
 const Section4 = () => {
     return (
-        <MDBModalBody style={{paddingTop: '60px'}}>
+        <MDBModalBody style={{paddingTop: '60px', paddingBottom: '100px'}}>
             <div style={{float: 'left', paddingLeft: '100px', paddingTop: '50px'}}>
                 <div className={styles.bubble}>
                     <img src={BalanceadoImg} style={{width: '230px'}}/>
@@ -34,7 +34,7 @@ const Section4 = () => {
                 </div>
             </div>
             <div style={{textAlign: 'left', float: 'right', width: '700px', paddingRight: '120px', paddingLeft: '50px'}}>
-                <h3>Junte-se às mais de 200 Franquias que já transformaram sua gestão com a Central do Franqueado!</h3>
+                <h3 style={{paddingBottom: '20px'}}>Junte-se às mais de 200 Franquias que já transformaram sua gestão com a Central do Franqueado!</h3>
                 <p>Dois a cada três clientes afirmam que contar com a nossa plataforma agrega valor na venda de novas unidades</p>
                 <p>Economia de um terço no tempo gasto com o suporte às unidades</p>
                 <p>35% de economia financeira com a diminuição do retrabalho e a otimização da equipe</p>
