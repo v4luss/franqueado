@@ -25,17 +25,25 @@ import LogoYou from '../images/logo-you.png'
 import StartupImg from '../images/startup.png'
 import GooglePlayBtn from '../images/google_play.png'
 import AppleStoreBtn from '../images/apple_store.png'
+import CellphoneIcon from '../images/cellicon.png'
+import TelephoneIcon from '../images/telephoneicon.png'
 
 const Section5 = () => {
     return (
-        <MDBModalBody style={{backgroundColor: 'blue', color: 'white'}}>
+        <MDBModalBody style={{backgroundColor: '#1728AF', color: 'white'}}>
             <div style={{paddingTop: '50px', paddingLeft: '100px'}}>
                 <div style={{float: 'left'}}>
                     <figure style={{}}>
                         <img src={LogoImg} style={{width: '200px'}}/>
                     </figure>
-                    <p style={{paddingTop: '20px'}}>(51)98126-1653</p>
-                    <p>(51)3391-6340</p>
+                    <div style={{marginBottom: '20px'}}>
+                        <img src={CellphoneIcon} style={{width: '10px'}}/>
+                        <span style={{paddingTop: '20px'}}> &nbsp; (51)98126-1653</span>
+                    </div>
+                    <div>
+                        <img src={TelephoneIcon} style={{width: '10px'}}/>
+                        <span>&nbsp; (51)3391-6340</span>
+                    </div>
                     <figure style={{position: 'relative', left: '-20px'}}>
                         <img src={LogoFace} style={{width: '50px'}}/>
                         <img src={LogoInsta} style={{width: '50px'}}/>
