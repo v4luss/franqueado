@@ -19,7 +19,7 @@ import { Link } from 'gatsby'
 
 const Section5 = () => {
     return (
-        <MDBModalBody style={{clear: 'both', padding: '100px', backgroundColor: '#FF7220', height: '300px'}}>
+        <MDBModalBody style={{clear: 'both', padding: '100px', backgroundColor: '#FF7220', height: '300px', color: 'white'}}>
             <div style={{float: 'left', width: '600px', paddingLeft: '50px', paddingRight: '100px'}}>
                 <h5>Transformar a gestão da sua rede é fácil.</h5>
                 <p>O franchising é um mercado inovador e que está evoluindo constantemente por meio da transformação digital.</p>
