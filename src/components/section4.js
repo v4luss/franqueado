@@ -33,7 +33,13 @@ const Section4 = () => {
                 <div className={styles.triangle}>
                 </div>
             </div>
-            
+            <div style={{textAlign: 'left', float: 'right', width: '700px', paddingRight: '120px', paddingLeft: '50px'}}>
+                <h3>Junte-se às mais de 200 Franquias que já transformaram sua gestão com a Central do Franqueado!</h3>
+                <p>Dois a cada três clientes afirmam que contar com a nossa plataforma agrega valor na venda de novas unidades</p>
+                <p>Economia de um terço no tempo gasto com o suporte às unidades</p>
+                <p>35% de economia financeira com a diminuição do retrabalho e a otimização da equipe</p>
+                <p>54% dos nossos clientes afirmam que houve um aumento na padronização da rede</p>
+            </div>
         </MDBModalBody>
         
     )
