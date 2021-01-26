@@ -27,7 +27,7 @@ const Section5 = () => {
             <div style={{float: 'right', textAlign: 'center', marginRight: '100px'}}>
                 <h5>Deixe-nos ajudá-lo a crescer!</h5>
                 <p>Acesse o formulario abaixo e dê um passo em direção ao <br/>futuro da sua rede.</p>
-                <MDBBtn>Fale Conosco</MDBBtn>
+                <MDBBtn style={{borderRadius: '30px'}}>Fale Conosco</MDBBtn>
             </div>
         </MDBModalBody>
 
