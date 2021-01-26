@@ -28,7 +28,7 @@ import AppleStoreBtn from '../images/apple_store.png'
 
 const Section5 = () => {
     return (
-        <MDBModalBody style={{height: '1000px', backgroundColor: 'blue', color: 'white'}}>
+        <MDBModalBody style={{backgroundColor: 'blue', color: 'white'}}>
             <div style={{paddingTop: '50px', paddingLeft: '100px'}}>
                 <div style={{float: 'left'}}>
                     <figure style={{}}>
@@ -96,8 +96,8 @@ const Section5 = () => {
 
             <div style={{float: 'right', paddingRight: '180px', paddingTop: '60px'}}>
                 <p>Aplicativo Mobile</p>
-                <img src={GooglePlayBtn} style={{width: '210px', marginRight: '50px'}}/>
-                <img src={AppleStoreBtn} style={{width: '220px'}}/>
+                <img src={GooglePlayBtn} style={{width: '210px', marginRight: '50px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/>
+                <img src={AppleStoreBtn} style={{width: '220px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/>
 
             </div>
                 <hr color='grey' style={{clear: 'both', width: '1100px'}}/>
