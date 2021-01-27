@@ -1,0 +1,12 @@
+.item1::marker {
+    content: url(../images/iconMegafone.png);
+     
+}
+.item2::marker {
+    content: url(../images/iconMonitor.png);
+     
+}
+.item3::marker {
+    content: url(../images/iconShield.png);
+     
+}
