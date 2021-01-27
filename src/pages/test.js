@@ -24,10 +24,14 @@ import Section3 from '../components/section3'
 import Section4 from '../components/section4'
 import Section5 from '../components/section5'
 import Footer from '../components/footer'
+import '../styles/global.css'
 
 const testPage = () => {
     return (
-      <div>
+      
+
+      <div style={{fontFamily: 'Oxygen'}}>
+        
         <Header/>
         <Section1/>
         <Section2/>

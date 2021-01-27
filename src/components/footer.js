@@ -39,11 +39,11 @@ const Section5 = () => {
                     </figure>
                     <div style={{marginBottom: '20px', marginTop: '50px'}}>
                         <img src={CellphoneIcon} style={{width: '10px'}}/>
-                        <span style={{paddingTop: '20px'}} className={styles.changeColor}> &nbsp; <a>(51)98126-1653</a></span>
+                        <span style={{paddingTop: '20px', fontWeight: 'bold'}} className={styles.changeColor}> &nbsp; <a>(51)98126-1653</a></span>
                     </div>
                     <div>
                         <img src={TelephoneIcon} style={{width: '10px'}}/>
-                        <span className={styles.changeColor}> &nbsp; <a>(51)3391-6340</a></span>
+                        <span className={styles.changeColor} style={{fontWeight: 'bold'}}> &nbsp; <a>(51)3391-6340</a></span>
                     </div>
                     <figure style={{position: 'relative', left: '-20px'}}>
                         <img src={LogoFace} style={{width: '50px'}} className={styles.icon}/>
@@ -55,7 +55,7 @@ const Section5 = () => {
                 </div>
                 <div style={{float: 'left', paddingLeft: '80px'}}>
                     <ul>
-                        <li style={{paddingBottom: '20px', listStyleType: 'none'}}>Módulos</li>
+                        <li style={{paddingBottom: '20px', listStyleType: 'none', fontWeight: 'bold'}}>Módulos</li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Plataforma</a></li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>CRM</a></li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Arquivos</a></li>
@@ -67,7 +67,7 @@ const Section5 = () => {
                 </div>
                 <div style={{float: 'left', paddingLeft: '30px'}}>
                     <ul>
-                        <li style={{paddingBottom: '20px', listStyleType: 'none'}}>A Central</li>
+                        <li style={{paddingBottom: '20px', listStyleType: 'none', fontWeight: 'bold'}}>A Central</li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Seja um Parceiro</a></li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Acesse a sua Conta</a></li>
                         <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Plataforma</a></li>
@@ -79,14 +79,14 @@ const Section5 = () => {
                 </div>
                 <div style={{float: 'left', paddingLeft: '10px'}}>
                     <ul>
-                    <li style={{paddingBottom: '20px', listStyleType: 'none'}}>Educativo</li>
+                    <li style={{paddingBottom: '20px', listStyleType: 'none', fontWeight: 'bold'}}>Educativo</li>
                     <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Cursos por E-mail</a></li>
                     <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Blog</a></li>
                     </ul>
                 </div>
                 <div style={{float: 'left', width: '260px'}}>
                     <ul>
-                    <li style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Últimas do Blog</a></li>
+                    <li style={{paddingBottom: '20px', listStyleType: 'none', fontWeight: 'bold'}}><a>Últimas do Blog</a></li>
                     <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>18 Franquias online para você trabalhar sem sair de casa</a></li>
                     <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Descubra como cobrar Royalties em uma rede de franquias</a></li>
                     <li className={styles.changeColor} style={{paddingBottom: '20px', listStyleType: 'none'}}><a>Franquias baratas: mais de 100 dicas por até R$90 mil</a></li>
@@ -104,7 +104,7 @@ const Section5 = () => {
             </div>
 
             <div style={{float: 'right', paddingRight: '180px', paddingTop: '60px'}}>
-                <p>Aplicativo Mobile</p>
+                <p style={{fontWeight: 'bold'}}>Aplicativo Mobile</p>
                 <a><img src={GooglePlayBtn} style={{width: '210px', marginRight: '50px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/></a>
                 <a><img src={AppleStoreBtn} style={{width: '220px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/></a>
 
