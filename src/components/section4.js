@@ -18,6 +18,7 @@ import {
 import { Link } from 'gatsby'
 import styles from '../styles/section.module.css'
 import BalanceadoImg from '../images/balanceado.png'
+import Aspas from '../images/aspas.png'
 
 const Section4 = () => {
     return (
@@ -25,9 +26,11 @@ const Section4 = () => {
             <div style={{float: 'left', paddingLeft: '100px', paddingTop: '50px'}}>
                 <div className={styles.bubble}>
                     <img src={BalanceadoImg} style={{width: '230px'}}/>
-                    <div style={{paddingTop: '50px', paddingRight: '20px', textAlign: 'justify'}}>
-                        <p style={{textIndent: '40px'}}>Utilizamos a Central do Franqueado há bastante tempo e cada vez mais vem se tornando imprecindível para o nosso negócio.</p>
-                        <p>Giuseppe Frizzo <br/>Coordenador de Operação da Rede Balanceado</p>
+                    <div style={{paddingTop: '50px', paddingRight: '20px', textAlign: 'justify', width: '450px'}}>
+                        <img src={Aspas}/>
+                        <span style={{fontWeight: 'bold'}}>Utilizamos a Central do Franqueado há bastante tempo e cada vez mais vem se tornando imprecindível para o nosso negócio.</span>
+                        <p style={{marginTop: '15px', fontWeight: 'bold'}}>Giuseppe Frizzo</p>
+                        <span style={{position: 'relative', top: '-10px'}}>Coordenador de Operação da Rede Balanceado</span>
                     </div>
                 </div>
                 <div className={styles.triangle}>
