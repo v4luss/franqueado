@@ -1,0 +1,7 @@
+ul li::marker {
+    content: url(../images/iconV.png);
+     
+}
+li {
+    padding-left: 10px;
+}

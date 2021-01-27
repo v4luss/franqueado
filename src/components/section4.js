@@ -19,6 +19,8 @@ import { Link } from 'gatsby'
 import styles from '../styles/section.module.css'
 import BalanceadoImg from '../images/balanceado.png'
 import Aspas from '../images/aspas.png'
+import IconV from '../images/iconV.png'
+import '../styles/section4.css'
 
 const Section4 = () => {
     return (
@@ -36,12 +38,16 @@ const Section4 = () => {
                 <div className={styles.triangle}>
                 </div>
             </div>
-            <div style={{textAlign: 'left', float: 'right', width: '700px', paddingRight: '120px', paddingLeft: '50px'}}>
-                <h3 style={{paddingBottom: '20px'}}>Junte-se às mais de 200 Franquias que já transformaram sua gestão com a Central do Franqueado!</h3>
-                <p>Dois a cada três clientes afirmam que contar com a nossa plataforma agrega valor na venda de novas unidades</p>
-                <p>Economia de um terço no tempo gasto com o suporte às unidades</p>
-                <p>35% de economia financeira com a diminuição do retrabalho e a otimização da equipe</p>
-                <p>54% dos nossos clientes afirmam que houve um aumento na padronização da rede</p>
+            <div style={{textAlign: 'justify', float: 'right', width: '700px', paddingRight: '120px', paddingLeft: '50px'}}>
+                <h3 style={{paddingBottom: '20px', color: 'blue'}}>Junte-se às mais de 200 Franquias que já <b style={{fontWeight: 'bold'}}>transformaram sua gestão com a Central do Franqueado!</b></h3>
+                <ul style={{position: 'relative', left: '-20px', fontSize: '19px'}}>
+                    <li><p><b style={{fontWeight: 'bold'}}>Dois a cada três clientes</b> afirmam que contar com a nossa plataforma <b style={{fontWeight: 'bold'}}>agrega valor</b> na venda de novas unidades</p></li>
+                    <li><p><b style={{fontWeight: 'bold'}}>Economia de um terço no tempo</b> gasto com o suporte às unidades</p></li>
+                    <li><p><b style={{fontWeight: 'bold'}}>35% de economia financeira</b> com a diminuição do retrabalho e a otimização da equipe</p></li>
+                    <li><p>54% dos nossos clientes afirmam que houve um <b style={{fontWeight: 'bold'}}>aumento na padronização</b> da rede</p></li>
+                
+                </ul>
+                
             </div>
         </MDBModalBody>
         
