@@ -16,6 +16,7 @@ import {
   MDBRow
 } from 'mdbreact'
 import { Link } from 'gatsby'
+import styles from '../styles/section5.module.css'
 
 const Section5 = () => {
     return (
@@ -27,7 +28,7 @@ const Section5 = () => {
             <div style={{float: 'right', textAlign: 'center', marginRight: '100px'}}>
                 <h5 style={{fontWeight: 'bold'}}>Deixe-nos ajudá-lo a crescer!</h5>
                 <p>Acesse o formulario abaixo e dê um passo em direção ao <br/>futuro da sua rede.</p>
-                <MDBBtn style={{borderRadius: '30px', width: '400px', fontSize: '18px', fontWeight: 'bold'}}>Fale Conosco</MDBBtn>
+                <MDBBtn className={styles.btn} style={{borderRadius: '30px', width: '400px', fontSize: '18px', fontWeight: 'bold'}}>Fale Conosco</MDBBtn>
             </div>
         </MDBModalBody>
 

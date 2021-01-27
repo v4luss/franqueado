@@ -1,7 +1,7 @@
-ul li::marker {
+.list::marker {
     content: url(../images/iconV.png);
      
 }
-li {
+.list {
     padding-left: 10px;
 }

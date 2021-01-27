@@ -1,0 +1,23 @@
+.list::marker {
+    content: url(../images/iconX.png);
+     
+}
+.list {
+    padding-left: 10px;
+}
+
+.img {
+    filter:saturate(0.1) opacity(0.5);
+    
+}
+.img:hover {
+    filter:saturate(1) opacity(1);
+    transition: 0.5s;
+}
+.btn {
+    text-transform: unset !important;
+    background-color: #FF7220 !important;
+}
+.btn:hover {
+    background-color: blue !important;
+}

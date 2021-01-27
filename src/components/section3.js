@@ -21,20 +21,21 @@ import Section3Img1 from '../images/home-beneficios-1.png'
 import Section3Img2 from '../images/home-beneficios-2.png'
 import Section3Img3 from '../images/home-beneficios-3.png'
 import Section3Img4 from '../images/home-beneficios-4.png'
+import styles3 from '../styles/section3.module.css'
 
 const Section3 = () => {
     return (
         <MDBModalBody style={{clear: 'both', backgroundColor: "#2546CC"}}>
-            <div style={{float: 'left', color: 'white', padding: '50px'}}>
-                <h3 style={{padding: '10px'}}>Otimize a gestão da sua Franquia com um <br/>Software sofisticado e inovador</h3>
-                <p style={{padding: '10px'}}>Centralize a comunicação da sua franquia, integre diversas soluções <br/>em uma única plataforma e acelere a expansão da sua marca com a <br/>Central do Franqueado. É fácil!</p>
-                <MDBBtn>Ver planos</MDBBtn>
+            <div style={{float: 'left', color: 'white', padding: '100px',  width: '720px'}}>
+                <h3 style={{padding: '10px'}}>Otimize a gestão da sua Franquia com um <b style={{fontWeight: 'bold'}}>Software sofisticado e inovador</b></h3>
+                <p style={{padding: '10px'}}>Centralize a comunicação da sua franquia, integre diversas soluções <br/>em <b style={{fontWeight: 'bold'}}>uma única plataforma</b> e acelere a expansão da sua marca com a <br/><b style={{fontWeight: 'bold'}}>Central do Franqueado</b>. É fácil!</p>
+                <MDBBtn className={styles3.btn3} style={{borderRadius: '30px', width: '300px', fontSize: '18px', fontWeight: 'bold'}}>Ver planos</MDBBtn>
             </div>
             <figure style={{floar: 'right', padding: '30px'}}>
                 <img src={Banner3} style={{width: '500px'}}/>
 
             </figure>
-            <h2 style={{textAlign: 'center', color: 'white'}}>E mais...</h2>
+            <h2 style={{clear: 'both', textAlign: 'center', color: 'white'}}>E mais...</h2>
             <div>
                 <ul>
                     <li style={{display: 'inline-block', paddingLeft: '150px'}}>
