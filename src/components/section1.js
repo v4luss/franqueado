@@ -22,7 +22,7 @@ import styles from '../styles/section1.module.css'
 
 const Section1 = () => {
     return (
-      <MDBModalBody style={{backgroundColor: "#316DE8"}}>
+      <MDBModalBody className={styles.section1} style={{backgroundColor: "#316DE8"}}>
           <div style={{textAlign: "center", color: "white"}}>
             <h2>Promova inovação e getão inteligente com</h2>
             <h2><b style={{fontWeight: 'bold'}}>O Melhor Sistema Para Franquias do Brasil</b></h2>

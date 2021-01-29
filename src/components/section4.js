@@ -24,7 +24,7 @@ import style2 from '../styles/section4.module.css'
 
 const Section4 = () => {
     return (
-        <MDBModalBody style={{paddingTop: '60px', paddingBottom: '100px'}}>
+        <MDBModalBody style={{paddingTop: '60px', paddingBottom: '100px', backgroundColor: 'white'}}>
             <div style={{float: 'left', paddingLeft: '100px', paddingTop: '50px'}}>
                 <div className={styles.bubble}>
                     <img src={BalanceadoImg} style={{width: '230px'}}/>
