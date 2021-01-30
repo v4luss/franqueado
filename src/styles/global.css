@@ -1,3 +1,9 @@
 html {
     font-family: Oxygen;
+}/*
+body {
+background-color: #316DE8;
+}*/
+@media (min-device-width: 1300px) {
+    
 }
