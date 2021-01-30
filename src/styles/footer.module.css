@@ -1,0 +1,21 @@
+
+.changeColor:hover {
+    color: #FF7220;
+}
+.iconChangeColor:hover {
+    filter:hue-rotate(100deg);
+}
+@media (max-width: 900px) {
+    .div1 {
+        float: left !important;
+        width: 100px !important;
+        background-color: none;
+        padding-left: -50px;
+        
+    }
+    .div2 {
+        float: right !important;
+        width: 300px;
+        background-color: none;
+    }
+}

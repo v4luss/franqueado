@@ -1,31 +1,49 @@
-/*
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import NavPage from '../components/NavPage'
-import VideoBackground from '../components/VideoBackground'
-import FeaturesPage from '../components/FeaturesPage'
-import SkillsPage from '../components/SkillsPage'
-import FooterPage from '../components/FooterPage'
+import React, { Component } from 'react'
+import {
+  MDBNavbar,
+  MDBNavbarNav,
+  MDBNavItem,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBIcon,
+  MDBNavLink,
+  MDBBtn,
+  MDBContainer,
+  MDBModal,
+  MDBModalBody,
+  MDBModalHeader,
+  MDBModalFooter,
+  MDBRow
+} from 'mdbreact'
+import { Link } from 'gatsby'
+import src1 from '../images/logo.png'
+import Header from '../components/header'
+import Section1 from '../components/section1'
+import Section2 from '../components/section2'
+import Section3 from '../components/section3'
+import Section4 from '../components/section4'
+import Section5 from '../components/section5'
+import Footer from '../components/footer'
+import '../styles/global.css'
 
-const IndexPage = () => (
-  <div>
-    <Helmet>
-      <title>MDBootstrap React Template</title>
-      <meta
-        name="description"
-        content="Static single page web app template built with React, MDBootstrap, and Gatsby"
-      />
-      <meta name="keywords" content="React, Bootstrap, Gatsby, Material Design, Template" />
-      <meta name="author" content="Jacob Cavazos" />
-      <link rel="canonical" href="" />
-    </Helmet>
-    <NavPage />
-    <VideoBackground />
-    <FeaturesPage />
-    <SkillsPage />
-    <FooterPage />
-  </div>
-)
+const testPage = () => {
+    return (
+      
 
-export default IndexPage
-*/
+      <div style={{fontFamily: 'Oxygen'}}>
+        
+        <Header/>
+        <Section1/>
+        <Section2/>
+        <Section3/>
+        <Section4/>
+        <Section5/>
+        <Footer/>
+      </div>
+      
+      
+        
+    )
+}
+
+export default testPage

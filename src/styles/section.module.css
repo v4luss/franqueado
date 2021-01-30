@@ -1,3 +1,17 @@
-.p {
+.triangle {
+    width: 10px;
+    border-top: 55px solid #0439D9;
+    border-left: 55px solid transparent;
+    position: relative;
+    left: 455px;
+    top: -28px;
+}
+.bubble {
+    font-family: Oxygen;
+    border-radius: 30px;
+    background: #0439D9;
+    padding: 15px; 
+    width: 510px;
+    height: 300px; 
     color: white;
 }

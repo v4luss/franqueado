@@ -1,0 +1,7 @@
+.list::marker {
+    content: url(../images/iconV.png);
+     
+}
+.list {
+    padding-left: 10px;
+}
