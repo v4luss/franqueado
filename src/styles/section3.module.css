@@ -36,3 +36,32 @@
     opacity: 1 !important;
     z-index: -1 !important;
 }
+
+.list1::marker {
+    content: url(../images/home-beneficios-1.png);
+    width: 10px;
+}
+
+.list2::marker {
+    content: url(../images/home-beneficios-2.png);
+     
+}
+.list3::marker {
+    content: url(../images/home-beneficios-3.png);
+     
+}
+.list4::marker {
+    content: url(../images/home-beneficios-4.png);
+     
+}
+@media (max-width: 900px) {
+    .text {
+        width: 1000px !important;
+    }
+    .subtext {
+        width: 800px !important;
+    }
+    .banner {
+        padding-left: 100px !important;
+    }
+}

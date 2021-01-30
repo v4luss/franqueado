@@ -52,3 +52,18 @@
     opacity: 1 !important;
     z-index: -1 !important;
 }
+@media (max-width: 900px) {
+    .lista {
+        display: none;
+    }
+    .h {
+        display: none;
+    }
+    .img2 {
+        float: left;
+    }
+    .list {
+        float: left;
+        width: '500px' !important;
+    }
+}

@@ -28,8 +28,8 @@ const Section2 = () => {
     return (
       <MDBModalBody>
           <div style={{textAlign: "center", color: "blue"}}>
-            <h3 style={{padding: '20px', fontWeight: 'bold'}}>Clientes que apostam na transforação Digital</h3>
-            <ul>
+            <h3 className={styles.h} style={{padding: '20px', fontWeight: 'bold'}}>Clientes que apostam na transforação Digital</h3>
+            <ul className={styles.lista}>
                 <li className={styles.img} style={{padding: '10px', display: 'inline-block'}}>
                     <a>
                         <figure style={{backgroundColor: 'black'}}>
@@ -71,11 +71,11 @@ const Section2 = () => {
           <hr/>
 
           <MDBModalBody>
-            <figure style={{float: 'left'}}>
+            <figure className={styles.img2} style={{float: 'left'}}>
                 <img src={Banner2} style={{paddingLeft: '150px', paddingTop: '40px'}}/>
             
             </figure>
-            <div style={{float: 'right', textAlign: 'left', paddingRight: '120px', paddingTop: '150px', width: '590px', marginLeft: '50px'}}>
+            <div className={styles.list} style={{float: 'right', textAlign: 'left', paddingRight: '120px', paddingTop: '150px', width: '590px', marginLeft: '50px'}}>
                 <h3 style={{color: 'blue', fontSize: '30px'}}>Sem integração não há <b style={{fontWeight: 'bold'}}>sucesso no Franchising</b></h3>
                 <ul style={{position: 'relative', left: '-20px'}}>
                     <li className={styles.list}><p>Comunicação em diferentes canais está enfraquecendo o engajamento com franqueados</p></li>

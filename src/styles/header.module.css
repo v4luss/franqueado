@@ -58,11 +58,11 @@
     
 }
 
-.dropMenu1 {
+.dropMenu {
+    display: none;
     width: 1130px;
     background-color: white;
     position: absolute;
-    display: none;
     height: 620px;
     left: 120px;
     top: 130px;
@@ -70,6 +70,7 @@
     z-index:1;
     padding: 25px;
 }
+
 .triangle {
     display: none;
     z-index:1;
@@ -82,6 +83,7 @@
     border-right: 20px solid transparent;
     border-bottom: 20px solid white;
 }
+
 .ldrop11::marker {
     content: url(../images/drop11.png);
      
@@ -122,4 +124,23 @@
 }
 .ldrop34::marker {
     content: url(../images/drop34.png)
+}
+@media (max-width: 1300px) {
+    .btn1 {
+        display: none;
+    }
+}
+@media (max-width: 990px) {
+    .nav {
+        display: none;
+
+    }
+    .headerImg {
+        width:300px !important;
+        margin-left: -20px !important;
+        
+    }
+    .navbar {
+        height: 150px !important;
+    }
 }

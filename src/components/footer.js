@@ -34,7 +34,7 @@ const Section5 = () => {
         <MDBModalBody style={{backgroundColor: '#1728AF', color: 'white'}}>
             <div style={{paddingTop: '50px', paddingLeft: '100px'}}>
                 <div style={{float: 'left'}}>
-                    <figure style={{}}>
+                    <figure>
                         <img src={LogoImg} style={{width: '200px'}}/>
                     </figure>
                     <div style={{marginBottom: '20px', marginTop: '50px'}}>
@@ -47,7 +47,7 @@ const Section5 = () => {
                     </div>
                     <figure style={{position: 'relative', left: '-20px'}}>
                         <img src={LogoFace} style={{width: '50px'}} className={styles.icon}/>
-                        <a className={styles.changeColor}><img src={LogoInsta} style={{width: '50px'}}/></a>
+                        <a className={styles.iconChangeColor}><img src={LogoInsta} style={{width: '50px'}}/></a>
                         <a><img src={LogoLink} style={{width: '70px'}}/></a>
                         <a><img src={LogoWhats} style={{width: '30px'}}/></a>
                         <a><img src={LogoYou} style={{width: '60px', paddingLeft: '20px'}}/></a>
@@ -97,19 +97,20 @@ const Section5 = () => {
             
             
             <hr color='grey' style={{clear: 'both', width: '1100px'}}/>
-            
-            <div style={{float: 'left', paddingTop: '60px', paddingLeft: '105px', paddingBottom: '50px'}}>
+            <div>
+            <div className={styles.div1} style={{float: 'left', paddingTop: '60px', paddingLeft: '105px', paddingBottom: '50px'}}>
                 <h5>Apoio</h5>
                 <img src={StartupImg}/>
             </div>
 
-            <div style={{float: 'right', paddingRight: '180px', paddingTop: '60px'}}>
+            <div className={styles.div2} style={{float: 'right', paddingRight: '180px', paddingTop: '60px'}}>
                 <p style={{fontWeight: 'bold'}}>Aplicativo Mobile</p>
                 <a><img src={GooglePlayBtn} style={{width: '210px', marginRight: '50px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/></a>
                 <a><img src={AppleStoreBtn} style={{width: '220px', borderRadius: '10px', borderStyle: 'solid', borderWidth: '1px', borderColor: 'white'}}/></a>
 
             </div>
                 <hr color='grey' style={{clear: 'both', width: '1100px'}}/>
+            </div>
             <hr/>
 
         

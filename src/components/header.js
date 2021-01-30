@@ -19,13 +19,12 @@ import { Link } from 'gatsby'
 import src1 from '../images/logo.png'
 import MegafoneImg from '../images/icontMegafone2.png'
 import styles from '../styles/header.module.css'
-import styles2 from '../styles/header2.css'
+import script from '../scripts/file'
+
 
 const Header = () => {
   
-  function fun () {
-    document.getElementsByClassName('dropMenu1').style.display = 'block';
-  }
+  
 
     return (
       <div>
@@ -33,19 +32,19 @@ const Header = () => {
         <MDBNavbar style={{backgroundColor: '#FF7220', height: "50px", color: 'white'}}>
           <div style={{margin: 'auto'}}><img src={MegafoneImg} style={{marginRight: '10px'}}/><a>Anuncie em nosso <b style={{fontWeight: 'bold'}}>Portal de Franquias!</b></a></div>
         </MDBNavbar>
-        <MDBNavbar style={{height: '100px', backgroundColor: "#316DE8", boxShadow: 'none'}} expand="md">
-          <a><img src={src1} style={{width: "200px", margin: "20px", padding: "20px", marginLeft: '95px'}}/></a>
-          <div style={{paddingLeft: "100px", color: 'white', fontSize: '20px'}}>
-            <a className={styles.text} style={{marginLeft: '10px'}}>Soluções</a>
+        <MDBNavbar className={styles.navbar} style={{height: '100px', backgroundColor: "#316DE8", boxShadow: 'none', paddingRight: 'auto'}} expand="md">
+          <a><img className={styles.headerImg} src={src1} style={{width: "200px", margin: "20px", padding: "20px", marginLeft: '95px'}}/></a>
+          <div className={styles.nav} style={{paddingLeft: "100px", color: 'white', fontSize: '20px'}}>
+            <a onClick={script.fun} className={styles.text} style={{marginLeft: '10px'}}>Soluções</a>
             <a className={styles.text} style={{marginLeft: '25px'}}>Preços</a>
             <a className={styles.text} style={{marginLeft: '25px'}}>Saiba mais</a>
-            <MDBBtn id={styles2.butn1} className={styles.btn1} style={{marginLeft: '40px', borderRadius: '30px', width: '300px', fontSize: '15px', fontWeight: 'bold', textTransform: 'unset'}}>Quero falar com um consultor</MDBBtn>
+            <MDBBtn className={styles.btn1} style={{marginLeft: '40px', borderRadius: '30px', width: '300px', fontSize: '15px', fontWeight: 'bold', textTransform: 'unset'}}>Quero falar com um consultor</MDBBtn>
             <MDBBtn className={styles.btn2}>Acessar conta</MDBBtn>
             
           </div>
         
         </MDBNavbar>
-          <div className={styles.dropMenu1}>
+          <div className={styles.dropMenu}>
             <h6 style={{fontWeight: 'bold', color: 'grey'}}>PRODUTOS</h6>
               <ul style={{marginLeft: '30px', float: 'left'}}>
 

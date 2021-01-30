@@ -29,7 +29,7 @@ const Section1 = () => {
             <h6>Mantenha seus franqueados engajados e impulsione a expansão da sua<br/>franquia com a Central do Franqueado.</h6>
             </div>
           <img src={Banner1} style={{marginRight: "auto", marginLeft: "auto", display: "block"}}/>
-      <div style={{color: "white", paddingBottom: '80px', fontSize: '20px', marginLeft: '130px'}}>
+      <div className={styles.lista} style={{color: "white", paddingBottom: '80px', fontSize: '20px', marginLeft: '130px'}}>
         <ul>
           <li className={styles.item1} style={{paddingRight: "70px", marginLeft: "50px", paddingLeft: '50px', float: 'left'}}><span>Comunicação efetiva</span></li>
           <li className={styles.item2} style={{paddingRight: "70px", marginLeft: "50px", paddingLeft: '50px', float: 'left'}}>Operação centralizada</li>
