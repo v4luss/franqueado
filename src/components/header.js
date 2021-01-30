@@ -20,7 +20,7 @@ import src1 from '../images/logo.png'
 import MegafoneImg from '../images/icontMegafone2.png'
 import styles from '../styles/header.module.css'
 import script from '../scripts/file'
-
+import src2 from '../images/menuicon.png'
 
 const Header = () => {
   
@@ -42,8 +42,12 @@ const Header = () => {
             <MDBBtn className={styles.btn2}>Acessar conta</MDBBtn>
             
           </div>
-        
+          <a><img src={src2} className={styles.menuIcon} style={{width: '50px', zIndex: '1', float: 'right'}}/></a>
         </MDBNavbar>
+        
+
+        
+        
           <div className={styles.dropMenu}>
             <h6 style={{fontWeight: 'bold', color: 'grey'}}>PRODUTOS</h6>
               <ul style={{marginLeft: '30px', float: 'left'}}>
@@ -149,8 +153,10 @@ const Header = () => {
               
           </div>
           <canvas className={styles.triangle}></canvas>
+
         
       </div>
+      
       
         
     )
