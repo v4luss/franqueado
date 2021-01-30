@@ -45,7 +45,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "yarn build",
+    "build": "CI= react-scripts build",
     "develop": "yarn develop",
     "start": "yarn run develop",
     "now-build": "gatsby build",
